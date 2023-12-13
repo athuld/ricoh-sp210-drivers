@@ -17,7 +17,7 @@ cp tmp/x86_64/$rasterName $filterPath/$rasterName
 
 cp ppd/* $ppdPath
 
-chown root.root $filterPath/$rasterName
+chown root:root $filterPath/$rasterName
 
 chmod 755 $filterPath/$rasterName
 
